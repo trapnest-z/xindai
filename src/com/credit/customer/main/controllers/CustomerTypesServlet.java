@@ -13,7 +13,7 @@ public class CustomerTypesServlet extends HttpServlet{
 		String leixingstr = request.getParameter("customer_types");
 		int leixing = Integer.parseInt(leixingstr);
 		
-		
+		// addddd
 		
 		if (leixing == 2){
 			response.sendRedirect("../servlet/DisplayzjlxServlet");
